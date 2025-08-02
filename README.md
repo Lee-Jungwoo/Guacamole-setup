@@ -57,12 +57,10 @@ This comprehensive setup script performs the following operations:
    ./init_native.sh
    ```
 
-4. **Monitor the installation**:
-
-5. **Enter your hostname and valid email**
+4. **Enter your hostname and valid email**
    - Requesting SSL certificate with certbot requires hostname and email.
 
-6. **monitor installation**
+5. **During Installation:**
    - The script will automatically handle most user prompts
    - Some installations may require brief user interaction, depending on the environment
    - MySQL root password is set to `1234`

@@ -7,13 +7,13 @@ read -p "Type your hostname in the form of [your.hostname] >
 read -p "Type your email address in the form of [abcd@ee.ff] >
 " email
 
-echo hostname | sudo tee /miscFiles/hostname > /dev/null
-echo email | sudo tee /miscFiles/email > /dev/null
+echo $hostname | sudo tee /miscFiles/hostname > /dev/null
+echo $email | sudo tee /miscFiles/email > /dev/null
 
 sudo chmod 644 /miscFiles/hostname
 sudo chmod 644 /miscFiles/email
 
-print "successfully saved your hostname, email address."
+print "successfully saved your hostname and email address."
 
 
 

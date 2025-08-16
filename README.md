@@ -41,7 +41,7 @@ This comprehensive setup script performs the following operations:
 ### Installation Steps
 1. **Download the script**:
    ```bash
-   wget -L https://raw.github.com/lee-jungwoo/Guacamole-setup/main/init_native.sh
+   wget -L https://raw.github.com/lee-jungwoo/Guacamole-setup/main/init.sh
    # or clone the repository
    git clone https://github.com/Lee-Jungwoo/Guacamole-setup.git
    cd Guacamole-setup
@@ -54,7 +54,7 @@ This comprehensive setup script performs the following operations:
 
 3. **Run the installation script**:
    ```bash
-   ./init_native.sh
+   ./init.sh
    ```
 
 4. **Enter your hostname and valid email**
